@@ -34,7 +34,7 @@ const styles = StyleSheet.create({
     image:{
         width: '100%',
         height: 150,
-        borderRadius: 10
+        borderRadius: 5
     },
     bg:{
         height: 150,

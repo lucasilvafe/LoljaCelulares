@@ -1,5 +1,6 @@
 import { Tabs } from "expo-router";
-import FontAwesome from "@expo/vector-icons/FontAwesome";
+import Feather from "@expo/vector-icons/Feather";
+import Ionicons from "@expo/vector-icons/Ionicons";
 
 export default function TabLayout() {
     return (
@@ -12,7 +13,7 @@ export default function TabLayout() {
                     tabBarInactiveBackgroundColor: '#F25C5C',
                     tabBarInactiveTintColor: '#ffffff',
                     tabBarActiveTintColor: '#898DD9',
-                    tabBarIcon: ({ color }) => <FontAwesome size={24} name="home" color={color} />
+                    tabBarIcon: ({ color }) => <Feather size={24} name="home" color={color} />
                 }}
             />
             <Tabs.Screen
@@ -24,18 +25,18 @@ export default function TabLayout() {
                     tabBarInactiveTintColor: '#ffffff',
                     tabBarActiveTintColor: '#898DD9',
                     headerShown: false,
-                    tabBarIcon: ({ color }) => <FontAwesome size={24} name="archive" color={color} />
+                    tabBarIcon: ({ color }) => <Feather size={24} name="smartphone" color={color} />
                 }}
             />
             <Tabs.Screen
                 name="about"
                 options={{
-                    title: 'Sobre mim',
+                    title: 'Meus Pedidos',
                     tabBarActiveBackgroundColor: '#F25C5C',
                     tabBarInactiveBackgroundColor: '#F25C5C',
                     tabBarInactiveTintColor: '#ffffff',
                     tabBarActiveTintColor: '#898DD9',
-                    tabBarIcon: ({ color }) => <FontAwesome size={24} name="user" color={color} />
+                    tabBarIcon: ({ color }) => <Feather size={24} name="shopping-cart" color={color} />
                 }}
             />
         </Tabs>
