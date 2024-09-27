@@ -10,40 +10,38 @@ export default function Screen (){
 
     return(
         <SafeAreaView style={styles.container}>
-             <Text style={styles.h1}>Lolja De Phones</Text>
             <Image
-                source={require('../assets/logo_size.jpg')}
+                source={require('../assets/logo-loljaphone.png')}
                 style={styles.logo}
                 resizeMode="cover"
             />
-           
-            <Text style={styles.h2}>Só vendemos celulares e nada mais, não insista.</Text>
             <Button
                 title="Comprar Phones"
                 onPress={start}
             />
+
+            <Text style={styles.textrodape}>©2024 LoljaPhone</Text>
         </SafeAreaView>
     );
 }
 const styles = StyleSheet.create({
     container:{
         flex:1,
-        backgroundColor: '#F29D35',
+        flexDirection: 'column',
+        backgroundColor: '#ffffff',
         justifyContent: 'center',
         alignItems: 'center'
     },
     logo:{
-        width: 200,
-        height: 200, 
+        marginTop: 250,
+        width: 450,
+        height: 150, 
         marginBottom: 20
     },
-    h1:{
-        fontSize: 22,
-        fontWeight: 'bold',
-        marginBottom: 10
-    },
-    h2:{
-        fontSize: 16,
-        marginBottom: 10
+    
+    textrodape:{
+        flex: 1,
+        fontWeight: '300',
+        marginTop: 200
     }
 })

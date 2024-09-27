@@ -9,7 +9,6 @@ type Props = {
 
 export const ProductItem = ({ data }: Props) => {
     return (
-        // rota dinamica
 
         <SafeAreaView style={styles.container}>
             <View style={styles.textoProduto}>
@@ -40,17 +39,13 @@ export const ProductItem = ({ data }: Props) => {
             </View>
         </SafeAreaView>
 
-
-
-
-
     );
 }
 const styles = StyleSheet.create({
     container: {
         flexDirection: 'column',
         marginBottom: 20,
-        backgroundColor: '#ffffff'
+        backgroundColor: '#ffffff',
     },
     img: {
         width: 100,
