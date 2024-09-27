@@ -36,7 +36,7 @@ export default function Screen() {
                     title="Comprar agora"
                     onPress={comprar}
                 />
-               
+               <Text></Text>
             </View>
             </ScrollView>
             

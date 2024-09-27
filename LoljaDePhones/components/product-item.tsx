@@ -37,6 +37,7 @@ export const ProductItem = ({ data }: Props) => {
                     </Pressable>
                 </Link>
             </View>
+            <Text></Text>
         </SafeAreaView>
 
     );
@@ -44,7 +45,7 @@ export const ProductItem = ({ data }: Props) => {
 const styles = StyleSheet.create({
     container: {
         flexDirection: 'column',
-        marginBottom: 20,
+        marginBottom: 10,
         backgroundColor: '#ffffff',
     },
     img: {
