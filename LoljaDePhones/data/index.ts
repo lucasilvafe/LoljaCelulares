@@ -11,54 +11,45 @@ export const data: Data = {
         {
             id: 1,
             title: 'Samsunga',
-            cover: 'https://t2.tudocdn.net/656266?w=1920'
+            cover: 'https://s.zst.com.br/cms-assets/2023/08/celular-samsung-1.webp'
         },
         {
             id: 2,
             title: 'Motorolo',
-            cover: 'https://www.digitaltrends.com/wp-content/uploads/2024/06/motorola-edge-2024-review-1.jpeg?resize=625%2C417&p=1'
+            cover: 'https://www.mobilebit.com.br/wp-content/uploads/2024/06/mao-segurando-o-motorola-moto-g14-na-cor-grafite.webp'
         },
         {
             id: 3,
             title: 'Xiaumi',
-            cover: 'https://picsum.photos/id/21/1000/300'
+            cover: 'https://img.olx.com.br/images/88/885477170361388.jpg'
         },
         {
             id: 4,
             title: 'Opple',
-            cover: 'https://picsum.photos/id/21/1000/300'
+            cover: 'https://www.transmedia.cl/wp-content/uploads/2020/07/appleiphone11promaxgreennight.jpg'
         }
     ],
     products: [
-        { id: 4, idCategory: 1, image: "https://www.kabum.com.br/_next/image?url=https%3A%2F%2Fimages.kabum.com.br%2Fprodutos%2Ffotos%2Fsync_mirakl%2F519155%2FSmartphone-Samsung-Galaxy-A05-4G-128GB-4GB-RAM-C-mera-50MP-Tela-6-7-Preto_1725977099_g.jpg&w=640&q=100", title: "Smartphone Samsung Galaxy A05, ", description: "4G, 128GB, 4GB RAM, Câmera 50MP, Tela 6.7", price: 638.90 },
-        { id: 23, idCategory: 1, image: "https://www.kabum.com.br/_next/image?url=https%3A%2F%2Fimages.kabum.com.br%2Fprodutos%2Ffotos%2Fsync_mirakl%2F525904%2FSmartphone-Samsung-Galaxy-A15-A155m-RAM-4GB-128GB-c-mera-traseira-Tripla-c-mera-frontal-13mp-Tela-6-5-_1726321590_g.jpg&w=640&q=100", title: "Smartphone Samsung Galaxy A15", description: "Proteção UV, design moderno, armação leve.", price: 836.99 },
-        { id: 15, idCategory: 2, image: "https://picsum.photos/id/14/200/200", title: "Floresta Verde", description: "Refúgio natural, ideal para caminhadas e exploração.", price: 34.99 },
-        { id: 9, idCategory: 1, image: "https://picsum.photos/id/8/200/200", title: "Roteador Wi-Fi", description: "Conexão estável, cobertura ampla, múltiplos dispositivos.", price: 79.99 },
-        { id: 12, idCategory: 2, image: "https://picsum.photos/id/11/200/200", title: "Montanha Nevada", description: "Pico alto, esportes de inverno, beleza natural.", price: 59.99 },
-        { id: 6, idCategory: 1, image: "https://picsum.photos/id/5/200/200", title: "Tablet 10\"", description: "Tela brilhante, ideal para entretenimento e produtividade.", price: 299.99 },
-        { id: 21, idCategory: 3, image: "https://picsum.photos/id/20/200/200", title: "Bolsa de Couro", description: "Design clássico, espaçosa e elegante para uso.", price: 89.99 },
-        { id: 25, idCategory: 3, image: "https://picsum.photos/id/24/200/200", title: "Chapéu Elegante", description: "Proteção solar, estilo casual e estiloso.", price: 19.99 },
-        { id: 5, idCategory: 1, image: "https://picsum.photos/id/4/200/200", title: "Smartwatch", description: "Monitoramento de saúde e notificações inteligentes.", price: 149.99 },
-        { id: 8, idCategory: 1, image: "https://picsum.photos/id/7/200/200", title: "Console X", description: "Gráficos avançados, ampla biblioteca de jogos.", price: 399.99 },
-        { id: 24, idCategory: 3, image: "https://picsum.photos/id/23/200/200", title: "Carteira Slim", description: "Compacta e prática, material durável.", price: 29.99 },
-        { id: 28, idCategory: 3, image: "https://picsum.photos/id/30/200/200", title: "Cinto de Couro", description: "Alta qualidade, fivela ajustável, durável.", price: 24.99 },
-        { id: 3, idCategory: 1, image: "https://picsum.photos/id/2/200/200", title: "Fone Bluetooth", description: "Som cristalino, cancelamento de ruído ativo.", price: 199.99 },
-        { id: 18, idCategory: 2, image: "https://picsum.photos/id/17/200/200", title: "Cachoeira Majestosa", description: "Queda d'água impressionante, espetáculo natural.", price: 64.99 },
-        { id: 30, idCategory: 3, image: "https://picsum.photos/id/39/200/200", title: "Luvas de Inverno", description: "Forradas, confortáveis, aquecem em climas frios.", price: 19.99 },
-        { id: 11, idCategory: 2, image: "https://picsum.photos/id/10/200/200", title: "Praia Tropical", description: "Areia branca, águas cristalinas, cenário paradisíaco.", price: 49.99 },
-        { id: 19, idCategory: 2, image: "https://picsum.photos/id/18/200/200", title: "Pôr do Sol", description: "Cores vibrantes, horizonte deslumbrante e sereno.", price: 24.99 },
-        { id: 16, idCategory: 2, image: "https://picsum.photos/id/15/200/200", title: "Cânion Profundo", description: "Formações rochosas impressionantes, vista espetacular.", price: 54.99 },
-        { id: 14, idCategory: 2, image: "https://picsum.photos/id/13/200/200", title: "Campo Florido", description: "Cores vibrantes, beleza natural e ar fresco.", price: 29.99 },
-        { id: 29, idCategory: 3, image: "https://picsum.photos/id/36/200/200", title: "Colar Elegante", description: "Design sofisticado, charme e refinamento.", price: 44.99 },
-        { id: 1, idCategory: 1, image: "https://picsum.photos/id/0/200/200", title: "Smartphone X1", description: "Alta performance, tela AMOLED e câmera avançada.", price: 599.99 },
-        { id: 2, idCategory: 1, image: "https://picsum.photos/id/1/200/200", title: "Laptop Pro", description: "Design elegante, processador i7, 16GB RAM.", price: 1299.99 },
-        { id: 7, idCategory: 1, image: "https://picsum.photos/id/6/200/200", title: "TV LED 50\"", description: "Imagem vívida, resolução 4K, serviços de streaming.", price: 799.99 },
-        { id: 17, idCategory: 2, image: "https://picsum.photos/id/16/200/200", title: "Deserto Dourado", description: "Dunas infinitas, cenário árido e fascinante.", price: 44.99 },
-        { id: 13, idCategory: 2, image: "https://picsum.photos/id/12/200/200", title: "Lago Sereno", description: "Água calma, tranquilidade e paz de espírito.", price: 39.99 },
-        { id: 22, idCategory: 3, image: "https://picsum.photos/id/21/200/200", title: "Relógio Esportivo", description: "Cronômetro, resistência à água, pulseira confortável.", price: 59.99 },
-        { id: 10, idCategory: 1, image: "https://picsum.photos/id/9/200/200", title: "Drone Pro", description: "Voo preciso, câmera HD, controle intuitivo.", price: 699.99 },
-        { id: 26, idCategory: 3, image: "https://picsum.photos/id/25/200/200", title: "Lenço de Seda", description: "Toque suave, estampas sofisticadas, elegante.", price: 14.99 },
-        { id: 27, idCategory: 3, image: "https://picsum.photos/id/26/200/200", title: "Pulseira de Prata", description: "Detalhes delicados, sofisticação e estilo.", price: 39.99 },
-        { id: 20, idCategory: 2, image: "https://picsum.photos/id/19/200/200", title: "Campos de Trigo", description: "Cenas pastorais tranquilas, brisa suave.", price: 31.99 }
+        { id: 1, idCategory: 1, image: "https://www.kabum.com.br/_next/image?url=https%3A%2F%2Fimages.kabum.com.br%2Fprodutos%2Ffotos%2Fsync_mirakl%2F519155%2FSmartphone-Samsung-Galaxy-A05-4G-128GB-4GB-RAM-C-mera-50MP-Tela-6-7-Preto_1725977114_g.jpg&w=640&q=100", title: "Samsung Galaxy A05", description: "4G, 128GB, 4GB RAM, Câmera 50MP, Tela 6.7", price: 638.90 },
+
+        { id: 2, idCategory: 1, image: "https://www.kabum.com.br/_next/image?url=https%3A%2F%2Fimages.kabum.com.br%2Fprodutos%2Ffotos%2Fsync_mirakl%2F523513%2FCelular-Samsung-Galaxy-A15-8GB-RAM-SSD-256GB-Tela-Infinita-De-6-5-Azul-Escuro_1721399026_g.jpg&w=640&q=100", title: "Samsung Galaxy A15", description: "Proteção UV, design moderno, armação leve.", price: 836.99 },
+
+        { id: 3, idCategory: 1, image: "https://www.kabum.com.br/_next/image?url=https%3A%2F%2Fimages.kabum.com.br%2Fprodutos%2Ffotos%2Fsync_mirakl%2F578382%2FUsado-Galaxy-A12-64gb-Vermelho-Muito-Bom-Trocafone_1714482873_g.jpg&w=640&q=100", title: "Galaxy A12 64gb Vermelho", description: "4G, 128GB, 4GB RAM, Câmera 50MP, Tela 6.7", price: 450.65 },
+
+        { id: 4, idCategory: 1, image: "https://www.kabum.com.br/_next/image?url=https%3A%2F%2Fimages.kabum.com.br%2Fprodutos%2Ffotos%2F519064%2Fsmartphone-samsung-galaxy-a15-5g-128gb-4gb-octa-core-camera-tripla-50mp-tela-de-6-5-azul-claro-sm-a156mlbrzto_1709148678_g.jpg&w=640&q=100", title: "Samsung Galaxy S23", description: "4G, 128GB, 4GB RAM, Câmera 50MP, Tela 6.7", price: 2000 },
+
+        { id: 5, idCategory: 1, image: "https://www.kabum.com.br/_next/image?url=https%3A%2F%2Fimages.kabum.com.br%2Fprodutos%2Ffotos%2Fsync_mirakl%2F422463%2FSmartphone-Samsung-Galaxy-S23-Ultra-5G-256GB-12GB-RAM-Octa-Core-C-mera-200MP-Selfie-12MP-Tela-6-8-Caneta-S-Pen-Preto_1721308269_g.jpg&w=640&q=100", title: "Samsung Galaxy S23", description: "4G, 128GB, 4GB RAM, Câmera 50MP, Tela 6.7", price: 2000 },
+
+        { id: 6, idCategory: 1, image: "https://www.kabum.com.br/_next/image?url=https%3A%2F%2Fimages.kabum.com.br%2Fprodutos%2Ffotos%2Fsync_mirakl%2F543770%2FCelular-Samsung-Galaxy-M15-5G-128GB-4GB-RAM-C-mera-Tripla-50MP-6-000mAh-Azul-Escuro_1722972559_g.jpg&w=640&q=100", title: "Celular Samsung Galaxy M15 5G", description: "4G, 128GB, 4GB RAM, Câmera 50MP, Tela 6.7", price: 2000 },
+
+        { id: 7, idCategory: 1, image: "https://www.kabum.com.br/_next/image?url=https%3A%2F%2Fimages.kabum.com.br%2Fprodutos%2Ffotos%2Fsync_mirakl%2F514076%2FSmartphone-Samsung-Galaxy-S23-Fe-5g-128GB-8GB-RAM-Octa-core-C-mera-Tripla-50MP-12-10-Tela-Infinita-6-4-Verde_1726235878_g.jpg&w=640&q=100", title: "Samsung Galaxy S23 Fe", description: "4G, 128GB, 4GB RAM, Câmera 50MP, Tela 6.7", price: 2000 },
+
+        { id: 8, idCategory: 1, image: "https://www.kabum.com.br/_next/image?url=https%3A%2F%2Fimages.kabum.com.br%2Fprodutos%2Ffotos%2Fsync_mirakl%2F422461%2FSmartphone-Samsung-Galaxy-S23-Ultra-5G-256GB-128GB-RAM-Snapdragon-8-C-mera-Qu-drupla-200MP-Selfie-12MP-Tela-6-8-Caneta-S-Pen-Creme_1723139723_g.jpg&w=640&q=100", title: "Samsung Galaxy S23 Ultra", description: "4G, 128GB, 4GB RAM, Câmera 50MP, Tela 6.7", price: 2000 },
+
+        { id: 9, idCategory: 1, image: "https://www.kabum.com.br/_next/image?url=https%3A%2F%2Fimages.kabum.com.br%2Fprodutos%2Ffotos%2Fsync_mirakl%2F564821%2FUsado-Samsung-Galaxy-Z-Fold-5-512gb-Preto-Excelente-Trocafone_1713536383_g.jpg&w=640&q=100", title: "Galaxy Z Fold", description: "4G, 128GB, 4GB RAM, Câmera 50MP, Tela 6.7", price: 2000 },
+        
+        { id: 10, idCategory: 1, image: "https://www.kabum.com.br/_next/image?url=https%3A%2F%2Fimages.kabum.com.br%2Fprodutos%2Ffotos%2Fmagalu%2F496413%2FSmartphone-Samsung-Galaxy-S23-256GB-Preto-5G-8GB-RAM-6-1-C-m-Tripla-Selfie-12MP_1695909404_g.jpg&w=640&q=100", title: "Samsung Galaxy S23", description: "4G, 128GB, 4GB RAM, Câmera 50MP, Tela 6.7", price: 2000 },
+        
+        
     ]
 }

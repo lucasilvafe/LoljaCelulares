@@ -30,7 +30,11 @@ export const ProductItem = ({ data }: Props) => {
                 <Text style={styles.price}>R$ {data.price.toFixed(2)}</Text>
                 <Link href={`/product/${data.id}`} asChild>
                     <Pressable style={styles.compbtn}>
-                        <Text>Comprar</Text>
+                        <Text style={styles.textoComprar}>Comprar</Text>
+                        <Image
+                            style={styles.imgcart}
+                            source={require('../assets/shoppingCart.png')}
+                        />
                     </Pressable>
                 </Link>
             </View>
@@ -51,7 +55,7 @@ const styles = StyleSheet.create({
     img: {
         width: 100,
         height: 100,
-        backgroundColor: "#CCCCCC",
+        backgroundColor: "#ffffff",
         marginTop: 4,
         marginRight: 10
     },
@@ -77,6 +81,7 @@ const styles = StyleSheet.create({
     },
     compbtn: {
         flex: 1,
+        flexDirection: 'row',
         backgroundColor: '#F25C5C',
         height: 40,
         borderRadius: 5,
@@ -86,6 +91,15 @@ const styles = StyleSheet.create({
     },
     textoProduto: {
         flex: 1,
-        flexDirection: 'row'
+        flexDirection: 'row',
+        alignItems: 'center'
+    },
+    textoComprar:{
+        fontWeight: '700'
+    },
+    imgcart:{
+        width: 24,
+        height: 24,
+        marginLeft: 10
     }
 })

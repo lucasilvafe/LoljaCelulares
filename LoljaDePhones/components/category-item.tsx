@@ -12,6 +12,7 @@ export const CategoryItem = ({data}: Props) =>{
         router.navigate(`/categories/${data.id}`)
     }
     return(
+
         <Pressable onPress={click} style={styles.container}>
             <Image
                 source={{uri: data.cover}}
@@ -23,25 +24,26 @@ export const CategoryItem = ({data}: Props) =>{
                 <Text style={styles.title}>{data.title}</Text>
             </View>
         </Pressable>
+
     );
 }
 const styles = StyleSheet.create({
     container:{
-        margin:10,
-        backgroundColor: "#333333",
+        margin:5,
+        backgroundColor: "#ffffff",
         borderRadius: 5
     },
     image:{
         width: '100%',
-        height: 150,
+        height: 250,
         borderRadius: 5
     },
     bg:{
-        height: 150,
+        height: 250,
         backgroundColor: "#F25C5C",
-        opacity: 0.5,
+        opacity: 0.2,
         borderRadius: 5,
-        marginTop: -150
+        marginTop: -250
     },
     box:{
         height: 150,
@@ -51,6 +53,7 @@ const styles = StyleSheet.create({
     },
     title:{
         color: '#FFFFFF',
-        fontSize: 20
+        fontSize: 20,
+        fontWeight: '500'
     }
 })

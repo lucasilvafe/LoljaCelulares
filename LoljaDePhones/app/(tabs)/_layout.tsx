@@ -1,18 +1,21 @@
 import { Tabs } from "expo-router";
 import Feather from "@expo/vector-icons/Feather";
-import Ionicons from "@expo/vector-icons/Ionicons";
 
 export default function TabLayout() {
     return (
-        <Tabs>
+        <Tabs >
+            
             <Tabs.Screen
                 name="home"
                 options={{
                     title: 'Início',
                     tabBarActiveBackgroundColor: '#F25C5C',
-                    tabBarInactiveBackgroundColor: '#F25C5C',
                     tabBarInactiveTintColor: '#ffffff',
-                    tabBarActiveTintColor: '#898DD9',
+                    tabBarActiveTintColor: '#000000',
+                    tabBarStyle:{
+                        height: 60,
+                        backgroundColor: '#F25C5C'
+                    },
                     tabBarIcon: ({ color }) => <Feather size={24} name="home" color={color} />
                 }}
             />
@@ -23,22 +26,31 @@ export default function TabLayout() {
                     tabBarActiveBackgroundColor: '#F25C5C',
                     tabBarInactiveBackgroundColor: '#F25C5C',
                     tabBarInactiveTintColor: '#ffffff',
-                    tabBarActiveTintColor: '#898DD9',
+                    tabBarActiveTintColor: '#000000',
+                    tabBarStyle:{
+                        height: 60,
+                        backgroundColor: '#F25C5C'
+                    },
                     headerShown: false,
                     tabBarIcon: ({ color }) => <Feather size={24} name="smartphone" color={color} />
                 }}
             />
             <Tabs.Screen
-                name="about"
+                name="pedidos"
                 options={{
                     title: 'Meus Pedidos',
                     tabBarActiveBackgroundColor: '#F25C5C',
                     tabBarInactiveBackgroundColor: '#F25C5C',
                     tabBarInactiveTintColor: '#ffffff',
-                    tabBarActiveTintColor: '#898DD9',
-                    tabBarIcon: ({ color }) => <Feather size={24} name="shopping-cart" color={color} />
+                    tabBarActiveTintColor: '#000000',
+                    tabBarStyle:{
+                        height: 60,
+                        backgroundColor: '#F25C5C'
+                    },
+                    tabBarIcon: ({ color }) => <Feather size={24} name="shopping-bag" color={color} />
                 }}
             />
+            
         </Tabs>
     );
 }

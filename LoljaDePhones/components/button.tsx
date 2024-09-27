@@ -14,14 +14,15 @@ export const Button = ({title, onPress}: Props) =>{
 }
 const styles = StyleSheet.create({
     button:{
-        backgroundColor: '#164E85',
+        backgroundColor: '#F25C5C',
         borderRadius: 10,
         paddingVertical: 15,
         paddingHorizontal: 25
     },
     buttonText:{
-        fontSize: 16,
-        color: '#FFFFFF',
+        fontSize: 20,
+        fontWeight: '700',
+        color: '#000000',
         textAlign: 'center'
     }
 })

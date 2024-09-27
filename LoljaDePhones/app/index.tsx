@@ -10,15 +10,16 @@ export default function Screen (){
 
     return(
         <SafeAreaView style={styles.container}>
+             <Text style={styles.h1}>Lolja De Phones</Text>
             <Image
-                source={require('../assets/logo.png')}
+                source={require('../assets/logo_size.jpg')}
                 style={styles.logo}
                 resizeMode="cover"
             />
-            <Text style={styles.h1}>Lolja De Phones</Text>
-            <Text style={styles.h2}>Só celulares.</Text>
+           
+            <Text style={styles.h2}>Só vendemos celulares e nada mais, não insista.</Text>
             <Button
-                title="Começar as compras"
+                title="Comprar Phones"
                 onPress={start}
             />
         </SafeAreaView>
@@ -27,6 +28,7 @@ export default function Screen (){
 const styles = StyleSheet.create({
     container:{
         flex:1,
+        backgroundColor: '#F29D35',
         justifyContent: 'center',
         alignItems: 'center'
     },
